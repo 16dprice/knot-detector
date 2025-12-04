@@ -10,6 +10,10 @@ use opencv::{
 };
 
 const KNOT_3_1_V1_PATH: &str = "/Users/djprice/SideProjectsCode/knot-detector/data/knot_3_1_v1.jpg";
+
+// I just realized that this is actually a 5 crossing knot, not 4_1
+// Oh well
+// I'd rather write this long comment about being wrong than actually fix it
 const KNOT_4_1_V1_PATH: &str = "/Users/djprice/SideProjectsCode/knot-detector/data/knot_4_1_v1.jpg";
 
 fn main() -> Result<()> {
